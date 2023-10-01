@@ -1,0 +1,35 @@
+.container-content {
+    border: 1px solid pink;
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.content-cover > img {
+    border: 3px solid rgb(144, 144, 144);
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.content-description {
+    margin-top: 15 px;
+}
+
+.content-description > p {
+    margin-top: 20px;
+    color: ghostwhite;
+    
+}
+
+.content-description > a {
+    justify-content: center;
+}
